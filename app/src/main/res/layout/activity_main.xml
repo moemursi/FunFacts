@@ -2,6 +2,7 @@
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/theLayOut"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#51b46d"
@@ -34,7 +35,8 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="22dp"
         android:background="@android:color/background_light"
-        android:text="Show Another Fun Fact" />
+        android:text="Show Another Fun Fact"
+        android:textColor="#51b46d" />
 
     <TextView
         android:id="@+id/factTextView"
