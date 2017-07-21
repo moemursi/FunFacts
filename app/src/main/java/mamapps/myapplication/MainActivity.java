@@ -39,8 +39,11 @@ public class MainActivity extends AppCompatActivity {
                 // the button was clicked update the fact view with a new fact
                 String fact = "";
                 // randomly select a fact
+                //random class
                 Random randomGen = new Random();
+                // random number to random class to length of the array
                 int randomNumb = randomGen.nextInt(facts.length);
+                //assign the randomnumber to the facts from the array
                 fact = facts[randomNumb];
                 //update the screen with our dynamic fact
                 mFactTextView.setText(fact);
